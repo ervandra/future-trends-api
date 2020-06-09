@@ -1,2 +1,3 @@
-# future-trends-api
-API for future-trends project
+# Strapi application
+
+A quick description of your strapi application

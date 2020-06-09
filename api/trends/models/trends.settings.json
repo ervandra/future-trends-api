@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trends",
+  "info": {
+    "name": "Trends"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "X_Coordinate": {
+      "type": "float"
+    },
+    "Y_Coordinate": {
+      "type": "float"
+    },
+    "Discussion_ID": {
+      "type": "string"
+    },
+    "Owner": {
+      "type": "string"
+    },
+    "IP_Address": {
+      "type": "string"
+    }
+  }
+}
