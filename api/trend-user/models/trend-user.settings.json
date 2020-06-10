@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trend_users",
+  "info": {
+    "name": "TrendUser"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "is_admin": {
+      "type": "boolean"
+    }
+  }
+}

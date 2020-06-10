@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collections",
+  "info": {
+    "name": "Collections"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "trend_id": {
+      "unique": true,
+      "model": "trends"
+    },
+    "trend_user_id": {
+      "model": "trend-user"
+    }
+  }
+}
