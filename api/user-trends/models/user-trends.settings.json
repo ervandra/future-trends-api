@@ -1,14 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "trends",
+  "collectionName": "user_trends",
   "info": {
-    "name": "Trends"
+    "name": "UserTrends"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
+    "trend_id": {
+      "type": "integer"
+    },
     "trend_name": {
       "type": "string"
     },
@@ -18,8 +21,14 @@
     "y_coord": {
       "type": "float"
     },
-    "discussion_id": {
+    "username": {
       "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "richtext"
     }
   }
 }
